@@ -1,0 +1,11 @@
+program_NAME := a.out
+
+SRCS = mathlib.c app.c
+
+.PHONY: all
+
+all: $(program_NAME)
+
+$(program_NAME): $(SRCS) 
+    ar -rcs libmathlib.a mathlib.o
+    cc -m32 app.o -L. -lmathlib
