@@ -19,4 +19,18 @@ int main()
 
 	a= div(12,4);
 	printf("the div is %d\n",a);
+	
+	double b;
+	b=pow(2,3);
+	printf("the power is %f\n",b);
+
+	b=exp(1);
+	printf("the exponent is %f\n",b);
+	
+	b=cos(PI/2);
+	printf("the cosine is %f\n",b);
+	
+	b=sin(PI/2);
+	printf("the sine is %f\n",b);
+
 }
