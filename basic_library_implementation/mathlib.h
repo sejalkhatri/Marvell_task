@@ -11,5 +11,12 @@ int cos(int a);
 int sin(int a);
 */
 
+double cos(double a);
+double sin(double a);
+double pow(double,double);
+double exp(double a);
+double factorial(double a);
+
+
 
 #endif /* MATHLIB_H_ */
