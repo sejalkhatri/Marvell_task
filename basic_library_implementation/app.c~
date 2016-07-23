@@ -17,6 +17,6 @@ int main()
 	a = mul(6,2);
 	printf("the product is %d\n",a);
 
-	a= div(12,4);
+	a= div(12,4):
 	printf("the div is %d\n",a);
 }
