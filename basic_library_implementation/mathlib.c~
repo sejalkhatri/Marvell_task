@@ -21,6 +21,18 @@ int div(int a, int b)
 		return a/b;
 }
 
+double exp(double a)
+{
+double f=1.00000;
+
+while(a>0)
+{
+*f =e;
+a--;}
+
+return f;
+}
+
 double pow(double a,double b)
 {
 double f=1.00000;

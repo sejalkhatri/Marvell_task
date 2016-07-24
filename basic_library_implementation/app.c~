@@ -32,9 +32,9 @@ int main()
 	printf("the power is %f\n",b);
 
 	b=cos(PI/2);
-	printf("the cosine of PI/2 is %f\n",b);
+	printf("the cosine is %f\n",b);
 	
 	b=sin(PI/2);
-	printf("the sine of PI/2  is %f\n",b);
+	printf("the sine is %f\n",b);
 
 }
